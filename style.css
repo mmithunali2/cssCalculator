@@ -1,0 +1,46 @@
+*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body{
+				background: rgb(20,13, 13);
+		}
+
+		.calc{
+			margin: 10px auto;
+			width: 320px;
+			height: 100%;
+			font-size: 0;
+
+
+		}
+		.b{
+			width: 80px;
+			height: 80px;
+			border: 1px solid red;
+			font-size: 1.5rem;
+			font-weight: bold;
+			display: inline;
+		}
+		.b:hover{
+			background: darkgray;
+		}
+		.calc:hover{
+			box-shadow: 3px 3px 6px lightslategray,
+			 -3px -3px 6px lightslategray;
+		}
+		.b:nth-child(4n):hover{
+			background: peachpuff;
+		}
+		input{
+			width: 100%;
+			height: 80px;
+			text-align: right;
+			font-size: 2rem;
+			letter-spacing: 5px;
+
+		}
+		.b:nth-child(4n){
+			background: greenyellow;
+		}
